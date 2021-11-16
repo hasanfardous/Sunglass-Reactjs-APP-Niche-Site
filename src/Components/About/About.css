@@ -1,0 +1,249 @@
+.about_area {
+  padding-bottom: 80px;
+  padding-top: 150px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .about_area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about_area {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+}
+
+.about_area .about_info p {
+  font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 37px;
+}
+
+@media (max-width: 767px) {
+  .about_area .about_info a {
+    margin-bottom: 30px;
+  }
+}
+
+.about_area .about_thumb2 {
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .about_area .about_thumb2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .about_area .about_thumb2 {
+    margin-bottom: 40px;
+  }
+}
+
+.about_area .about_thumb2 img {
+  width: 100%;
+}
+
+.about_area .about_thumb2 .img_1 img {
+  width: 100%;
+}
+
+.about_area .about_thumb2 .img_2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+  right: -30px;
+  bottom: -60px;
+}
+
+@media (max-width: 767px) {
+
+  .about_area .about_thumb2 .img_2 {
+    left: auto;
+    bottom: 0;
+    top: auto;
+    right: 0;
+    text-align: right;
+    bottom: -30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .about_area .about_thumb2 .img_2 {
+    left: auto;
+    bottom: 0;
+    top: auto;
+    right: -10px;
+    text-align: right;
+    bottom: -30px;
+  }
+}
+
+.about_area .about_thumb2 .img_2 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+
+  .about_area .about_thumb2 .img_2 img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .about_area .about_thumb2 .img_2 img {
+    width: 50%;
+  }
+}
+
+.about_info_area {
+  padding-left: 387px;
+  margin-top: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .about_info_area {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .about_info_area {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .about_info_area {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+  .about_info_area {
+    padding-left: 0px;
+  }
+}
+
+.about_info_area .single_slider {
+  height: 750px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 106, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_info_area .single_slider {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 106, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_info_area .single_slider {
+    height: 400px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 106, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_info_area .single_slider {
+    height: 500px;
+  }
+}
+
+/* line 122, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_main_info {
+  padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+  /* line 122, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info {
+    padding-top: 50px;
+  }
+}
+
+/* line 127, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_main_info .single_about_info {
+  margin-bottom: 43px;
+}
+
+@media (max-width: 767px) {
+  /* line 127, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info .single_about_info {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 132, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_main_info .single_about_info h3 {
+  font-size: 22px;
+  color: #1F1F1F;
+  margin-bottom: 0;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+
+/* line 139, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_main_info .single_about_info p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #4D4D4D;
+}
+
+@media (max-width: 767px) {
+  /* line 144, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info .single_about_info p br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 144, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info .single_about_info p br {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 144, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info .single_about_info p br {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 144, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_main_info .single_about_info p br {
+    display: none;
+  }
+}

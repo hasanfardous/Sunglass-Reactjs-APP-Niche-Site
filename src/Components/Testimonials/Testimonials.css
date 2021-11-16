@@ -1,0 +1,129 @@
+.testimonial_area {
+  background: #fff;
+  padding: 120px 0;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+  .testimonial_area {
+    padding: 50px 0;
+  }
+}
+
+/* line 9, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .stars i {
+  font-size: 13px;
+  color: #F2C64D;
+}
+
+/* line 15, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial p {
+  color: #040E27;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 1500px) {
+  /* line 21, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+  .testimonial_area .single_testmonial p br {
+    display: none;
+  }
+}
+
+/* line 28, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author {
+  margin-top: 45px;
+}
+
+/* line 30, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author .thumb {
+  width: 68px;
+  height: 68px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin: auto auto 7px auto;
+}
+
+/* line 37, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author h4 {
+  color: #040E27;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+}
+
+/* line 45, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7A838B;
+}
+
+/* line 52, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .single_testmonial .section_title h3 {
+  margin-bottom: 50px;
+}
+
+/* line 57, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .owl-carousel .owl-item img {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 61, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .owl-carousel .owl-nav div.owl-next {
+  left: auto;
+  right: 0;
+}
+
+/* line 65, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .owl-carousel .owl-nav div {
+  left: 0;
+  border: 1px solid #B9B5B2;
+  color: #1A0D01;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  top: 20%;
+}
+
+/* line 75, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
+.testimonial_area .owl-carousel .owl-nav div:hover {
+  background: #B9B5B2;
+  color: #fff;
+}
+.testimonial_area .carousel-inner .carousel-caption p {
+    font-size: 70px;
+    font-family: inherit;
+    color: #F2C64D;
+    position: relative;
+    margin-bottom: 50px;
+    color: #040E27;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 50px;
+    width: 60%;
+}
+.testimonial_area .carousel-inner .carousel-caption img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
+.testimonial_area .carousel-item {
+  min-height: 350px;
+}
+.testimonial_area .carousel-inner .carousel-caption h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #000;
+}

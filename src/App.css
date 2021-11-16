@@ -1,0 +1,19 @@
+
+button.popup-with-form {
+  border: 1px solid #F2C64D;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 21px;
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  color: #F2C64D;
+  transition: all .3s ease;
+}
+button.popup-with-form:hover {
+  background: #F2C64D;
+  color: #fff;
+}

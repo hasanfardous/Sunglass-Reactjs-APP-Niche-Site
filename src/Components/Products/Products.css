@@ -1,0 +1,253 @@
+.Burger_President_area {
+  padding: 120px 0 0 0;
+}
+
+@media (max-width: 767px) {
+  /* line 63, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area {
+    padding-top: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 63, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area {
+    padding-top: 0;
+  }
+}
+
+/* line 73, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 767px) {
+  /* line 73, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 73, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}
+
+/* line 84, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President::before {
+  position: absolute;
+  /* content: ""; */
+  background-color: #1A0D01;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .4;
+}
+
+/* line 96, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 100, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb img {
+  width: 100%;
+  height: 432px;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 105, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  /* line 105, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading {
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 105, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading {
+    left: 30px;
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 105, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading {
+    left: 20px;
+    bottom: 20px;
+  }
+}
+
+/* line 124, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading span {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+  display: block;
+  position: relative;
+  z-index: 8;
+}
+
+/* line 132, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading h3 {
+  font-size: 34px;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 8;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  /* line 132, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading h3 {
+    font-size: 20px;
+  }
+}
+
+/* line 143, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #f0542c;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading span .discount-price {
+    display: inline-block;
+    font-size: 17px;
+    vertical-align: middle;
+    color: #f0542c;
+}
+
+/* line 151, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading p {
+  font-size: 16px;
+  color: #E8E8E8;
+  line-height: 28px;
+  position: relative;
+  z-index: 1;
+  margin-top: 9px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px) {
+  /* line 151, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading p {
+    font-size: 14px;
+    line-height: 22px;
+    z-index: 1;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 151, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading p {
+    font-size: 14px;
+    line-height: 22px;
+    z-index: 1;
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 173, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading p br {
+    display: none;
+  }
+}
+
+/* line 179, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading a {
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  z-index: 8;
+  opacity: 1;
+  visibility: visible;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  /* line 179, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+  .Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading a {
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+}
+
+/* line 191, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President .room_thumb .room_heading a:hover {
+  color: #F2C64D;
+}
+
+/* line 198, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President:hover img {
+  width: 100%;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 203, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
+.Burger_President_area .Burger_President_here .single_Burger_President:hover .room_heading a {
+  opacity: 1;
+  visibility: visible;
+}
+.our_department_area {
+  padding: 180px 0;
+}
+
+a.popup-with-form {
+  border: 1px solid #fff;
+  padding: 10px 35px;
+  font-size: 20px;
+  border-radius: 21px;
+  background: transparent;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s ease;
+}
+a.popup-with-form:hover {
+  background: #0d0f0e;
+  color: #fff;
+  border: 1px solid #0d0f0e;
+}
