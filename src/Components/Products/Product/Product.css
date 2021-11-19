@@ -1,0 +1,19 @@
+a.popup-with-form {
+    border: 1px solid #0d0f0e;
+    padding: 10px 35px;
+    font-size: 20px;
+    border-radius: 21px;
+    background: transparent;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    text-decoration: none;
+    color: #0d0f0e;
+    transition: all .3s ease;
+  }
+  a.popup-with-form:hover {
+    background: #0d0f0e;
+    color: #fff;
+    border: 1px solid #0d0f0e;
+  }

@@ -37,7 +37,9 @@
     right: 20px;
     width: 32px;
 }
-
+.Home .carousel .carousel-control-next-icon, .Home .carousel .carousel-control-prev-icon {
+    background-color: black;
+}
 a.popup-with-form {
     border: 1px solid #fff;
     padding: 10px 35px;
